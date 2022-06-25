@@ -1,0 +1,23 @@
+.adress-container {
+    flex-grow: 1;
+}
+
+.address-footer {
+    margin-top: 20px;
+    font-style: normal;
+}
+
+.adress-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color-theme-light);
+    color: #FFFFFF;
+    transition: color 250ms var(--timing-function);
+}
+
+.adress-link:hover,
+.adress-link:focus {
+    color: var(--accent-color);
+}

@@ -1,0 +1,25 @@
+.contacts-list {
+    display: flex;
+    margin-left: auto;
+}
+
+.mail-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color-theme-light);
+    display: flex;
+    align-items: center;
+    transition: color 250ms var(--timing-function);
+}
+
+.mail-link:hover,
+.mail-link:focus {
+    color: var(--accent-color);
+}
+
+.mail-link:hover .icon-contact,
+.mail-link:focus .icon-contact {
+    fill: var(--accent-color);
+}
