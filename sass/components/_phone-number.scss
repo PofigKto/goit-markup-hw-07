@@ -1,21 +1,17 @@
 .phone-number-link {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.1;
+    @include font(500, 14px, 1.1);
         letter-spacing: 0.02em;
         color: var(--primary-text-color-theme-light);
         display: flex;
         align-items: center;
         transition: color 250ms var(--timing-function);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+        }
 }
-.phone-number-link:hover,
-.phone-number-link:focus {
-    color: var(--accent-color);
-}
-.phone-number-link:hover .icon-contact,
-.phone-number-link:focus .icon-contact {
-    fill: var(--accent-color);
-}
+
 .phone-number-list {
     margin-left: 50px;
 }

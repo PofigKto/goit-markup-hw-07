@@ -21,20 +21,20 @@
 }
 
 .media-link-footer {
-    display: flex;
     border-radius: 50%;
     background-color: rgb(255, 255, 255, 0.1);
     width: 44px;
     height: 44px;
-    align-items: center;
-    justify-content: center;
+    @extend %ideal-centr;
     transition: background-color 250ms var(--timing-function);
+
+    &:hover,
+    &:focus {
+        background-color: #2196F3;
+    }
 }
 
-.media-link-footer:hover,
-.media-link-footer:focus {
-    background-color: #2196F3;
-}
+
 
 .icon-media-footer {
     width: 20px;

@@ -11,12 +11,8 @@
     margin-right: 30px;
 }
 .work-card-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+    @extend %ideal-centr;
+    @include font(700, 14px, 1.14);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-section-color-theme-light);

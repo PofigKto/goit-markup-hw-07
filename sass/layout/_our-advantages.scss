@@ -3,9 +3,7 @@
 }
 
 .preview-title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.1;
+    @include font(700, 14px, 1.1);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-text-color-theme-dark);
@@ -26,9 +24,7 @@
     height: 120px;
     background-color: var(--background-container-color);
     margin-bottom: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %ideal-centr;
 }
 
 .icon {
