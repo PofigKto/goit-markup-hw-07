@@ -12,23 +12,23 @@
 @import './base/footer';
 
 @import './components/logo';
-@import './components/current';
 @import './components/menu-header';
 @import './components/mail-header';
 @import './components/phone-number';
-@import './components/icon-contact';
-@import './components/caption';
-@import './components/button';
+@import './components/icon-contact-header';
+@import './components/title-studia';
+@import './components/button-studia';
+@import './components/button-portfolio';
 @import './components/adress-footer';
-@import './components/social-footer';
+@import './components/social-media-list-footer';
 @import './components/subsrible-footer';
 @import './components/backdrop';
 @import './components/modal-wibdow';
 
 @import './layout/hero';
-@import './layout/our-advantages';
-@import './layout/work-section';
-@import './layout/team-masters';
-@import './layout/client-section';
-@import './layout/main-portfolio-list';
+@import './layout/our-advantages-section-studia';
+@import './layout/work-section-studia';
+@import './layout/our-team-masters-section';
+@import './layout/client-section-studia';
+@import './layout/main-card-list-portfolio';
 
