@@ -7,7 +7,6 @@
 @import './base/common';
 @import './base/section-background-colors';
 @import './base/section';
-@import './base/page-header';
 @import './base/container';
 @import './base/footer';
 
@@ -23,6 +22,7 @@
 @import './components/modal-wibdow';
 
 
+@import './layout/header';
 @import './layout/hero';
 @import './layout/preview-advantages-section';
 @import './layout/benefits-section';
