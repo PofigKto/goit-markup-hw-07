@@ -18,17 +18,12 @@
 }
 
 
-
-.button-portfolio {
-    display: flex;
-}
-
-.modal-list {
+.btn-filtr {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 }
 
-.list-button-portfolio:not(:last-child) {
+.btn-filtr__item:not(:last-child) {
     margin-right: 8px;
 }

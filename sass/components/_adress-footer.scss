@@ -1,13 +1,13 @@
-.adress-container {
+.adress__container {
     flex-grow: 1;
 }
 
-.address-footer {
+.address__footer {
     margin-top: 20px;
     font-style: normal;
 }
 
-.adress-link {
+.adress__link {
     @include font (400, 14px, 1.7);
     letter-spacing: 0.03em;
     color: var(--primary-text-color-theme-light);
@@ -20,3 +20,11 @@
         }
 }
 
+.footer-contact__item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer__container {
+    display: flex;
+    align-items: baseline;
+}

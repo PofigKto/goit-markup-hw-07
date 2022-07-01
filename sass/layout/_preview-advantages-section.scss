@@ -1,8 +1,8 @@
-.preview-list {
+.preview {
     display: flex;
 }
 
-.preview-title {
+.preview__subtitle {
     @include font(700, 14px, 1.1);
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -10,16 +10,16 @@
     margin-bottom: 10px;
 }
 
-.preview-text {
+.preview__text {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--primary-text-color-theme-light);
 }
-.preview-text-list:not(:last-child) {
+.preview__item:not(:last-child) {
     margin-right: 30px;
 }
-.icon-container {
+.preview-icon__container {
     width: 270px;
     height: 120px;
     background-color: var(--background-container-color);
@@ -27,7 +27,7 @@
     @extend %ideal-centr;
 }
 
-.icon {
+.preview__icon {
     width: 70px;
     height: 70px;
 }

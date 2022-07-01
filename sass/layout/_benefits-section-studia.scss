@@ -1,16 +1,16 @@
-.work-section {
+.benefits {
     padding-top: 0;
 }
 
-.futures-list {
+.futures {
     display: flex;
     align-items: center;
 }
 
-.futures-text-list:not(:last-child) {
+.futures__item:not(:last-child) {
     margin-right: 30px;
 }
-.work-card-text {
+.futures-card__title {
     @extend %ideal-centr;
     @include font(700, 14px, 1.14);
     letter-spacing: 0.03em;
@@ -24,6 +24,6 @@
     background: rgba(47, 48, 58, 0.8);
 }
 
-.work-card-img-wrapper {
+.futures-card__img {
     position: relative;
 }
